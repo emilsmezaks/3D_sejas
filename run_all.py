@@ -1,6 +1,3 @@
-"""
-SeIF - Visu attēlu rekonstrukcija
-"""
 
 import subprocess
 import os
@@ -14,7 +11,6 @@ all_numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16]
 project_dir = r"D:\Download\Desktop\3D_Sejas"
 
 def create_temp_script(number):
-    """Izveido pagaidu Python skriptu konkrētam attēlam"""
     
     temp_script = f'''import os
 import numpy as np
